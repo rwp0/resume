@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{intermediate_perl}
+randal schwartz.
+\newblock {\em intermediate}.
+\newblock oreilly, 2 edition, october 2016.
+\newblock URL:
+  \url{https://www.oreilly.com/library/view/intermediate-perl-2nd/9781449343781/}.
+
+\bibitem{mastering_perl}
+randal schwartz.
+\newblock {\em intermediate}.
+\newblock oreilly, 2 edition, october 2016.
+\newblock URL:
+  \url{https://www.oreilly.com/library/view/intermediate-perl-2nd/9781449343781/}.
+
+\bibitem{learning_perl}
+randal schwartz.
+\newblock {\em learning perl}.
+\newblock oreilly, 7 edition, october 2016.
+\newblock URL:
+  \url{https://www.oreilly.com/library/view/learning-perl-7th/9781491954317/}.
+
+\end{thebibliography}

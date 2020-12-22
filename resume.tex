@@ -1,6 +1,8 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+% \usepackage{pdfpages}
+\usepackage{attachfile2}
 \title{resumé}
 \author{elvin aslanov (rwp) \thanks{\LaTeX}}
 \date{\today}
@@ -8,15 +10,26 @@
 \begin{titlepage}
 \maketitle
 \end{titlepage}
-\section{contacts}
+\textattachfile{attachments/lpi2.lpi.pdf}{attached file}
+\section{biography}
+\subsection{basic}
 \begin{description}
 \item[name] elvin aslanov
-\item[location] baku, azerbaijan
-\item[birtdate] june 9, 1992 (age: \pgfmathparse{2020 - 1992}\pgfmathresult)
+\item[location] \href{https://www.openstreetmap.org/relation/2415335}{baku, azerbaijan}
+\item[birtdate] june 9, 1992
+\end{description}
+\subsection{education}
+\begin{description}
 \item[formal education] bachelor's degree on computer engineering
+\item[certification] linux professional institution \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/bafrejwgeb}{lpic-2} (\textit{pdf attached})
 \item[language] english (fluent)
+\textit{generally being into a self-taught and self-learner (ie. autodidactic) on life and work (thanks to open access web)}
+\end{description}
+\subsection{contacts}
+\begin{description}
 \item[email] \href{mailto:rwp@disroot.org}{rwp@disroot.org}
-\item[irc] rwp (\url{rwp@disroot.org}) (\href{https://freenode.net/}{freenode})
+\item[irc] \verb|_rwp| (\href{https://freenode.net/}{freenode})
+\item[xmpp]: \url{rwp@disroot.org}
 \end{description}
 \section{unix}
 as an umbrella term covering the software below listed
@@ -41,11 +54,22 @@ interests i invest my time in
 \subsection{books}
 major books read, and learned from
 \begin{enumerate}
-\item \href{https://www.oreilly.com/library/view/learning-perl-7th/9781491954317/}{learning perl (oreilly) by randal schwartz}
-\item \href{https://www.oreilly.com/library/view/intermediate-perl-2nd/9781449343781/}{intermediate perl (oreilly) by randal schwartz}
+\item{learning perl\cite{learning_perl}}
+\item{intermediate perl\cite{intermediate_perl}}
+\item{mastering perl\cite{mastering_perl}}
 \item \href{https://www.oreilly.com/library/view/mastering-perl-2nd/9781449364946/}{mastering perl (oreilly) by brian d foy}
+\item \href{https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/}{programming perl (oreilly) by tom christiansen}
+\item \href{https://www.oreilly.com/library/view/perl-cookbook-2nd/0596003137/}{perl cookbook (oreilly) by tom christiansen}
 \end{enumerate}
 \subsection{social}
-\href{https://en.wikipedia.org/wiki/User:Rwp0}{wikipedia}, openstreetmap, github:
-i spend time reading wikipedia articles (and also wiktionary pages), explore openstreetmap objects, and watch github for merged pull requests
+\href{https://en.wikipedia.org/wiki/User:Rwp0}{wikipedia}, openstreetmap, github\\
+i spend time reading wikipedia articles (and also wiktionary pages), explore openstreetmap objects, and watch github for merged pull requests on projects i'm interested in
+\bibliography{resume}{} % file: resume.bib (database)
+\bibliographystyle{plainurl} % file: plain.bst (style)
+% \appendix
+% \includepdf[pages=-]{attachments/lpi2.lpi.pdf}
 \end{document}
+
+https://addons.mozilla.org/en-US/firefox/user/16430899/
+https://commons.wikimedia.org/wiki/User:Rwp0
+perler, mapper, wikipedian, mozillian
