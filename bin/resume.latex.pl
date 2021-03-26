@@ -4,7 +4,7 @@ use File::Spec;
 use constant
 {
 source => File::Spec -> catfile("$ENV{HOME}", qw(var git resume resume.tex)),
-output => File::Spec -> catfile("$ENV{HOME}", qw(var git resume resume.pdf)),
+output => File::Spec -> catfile("$ENV{HOME}", qw(var git resume out resume.pdf)),
 };
 use LaTeX::Driver; # cpan
 my $latex = LaTeX::Driver -> new(

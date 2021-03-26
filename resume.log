@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020-OpenBSD_Ports) (preloaded format=xelatex 2020.5.30)  26 MAR 2021 13:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020-OpenBSD_Ports) (preloaded format=xelatex 2020.5.30)  26 MAR 2021 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -274,7 +274,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
 [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-
+[2]
 Underfull \hbox (badness 2564) in paragraph at lines 11--16
 []\TU/lmr/m/n/10 randal schwartz.  \TU/lmr/m/it/10 intermediate\TU/lmr/m/n/10 .
   oreilly, 2 edition, october 2016.
@@ -298,7 +298,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--23
 ] [][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][] []
  []
 
-[2]
+
 Underfull \hbox (badness 1259) in paragraph at lines 25--30
 []\TU/lmr/m/n/10 stephen lidie.  \TU/lmr/m/it/10 mastering perl/tk\TU/lmr/m/n/1
 0 .  oreilly, 2 edition, january 2002.
@@ -330,7 +330,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
 Here is how much of TeX's memory you used:
  8381 strings out of 479418
  122944 string characters out of 5887664
- 377864 words of memory out of 5000000
+ 376864 words of memory out of 5000000
  25806 multiletter control sequences out of 15000+600000
  535522 words of font info for 45 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
