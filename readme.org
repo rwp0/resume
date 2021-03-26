@@ -1,0 +1,4 @@
+* resume :texlive:
+** texlive
+   - =pdflatex(1)=
+   - =bibtex(1)=
