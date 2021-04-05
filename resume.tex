@@ -1,77 +1,117 @@
 \documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-% \usepackage{pdfpages}
-\usepackage{attachfile2} % macros: textattachfile
 \title{resumé}
-\author{elvin aslanov (rwp) \thanks{\LaTeX}}
+\author{elvin aslanov (rwp) \thanks{\href{https://en.wikipedia.org/wiki/LaTeX}{\LaTeX} (\href{https://www.gnu.org/software/auctex/}{AUCTeX})}}
 \date{\today}
 
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{attachfile2} % macros: textattachfile
+\usepackage{graphicx}
+
 \begin{document}
-\begin{titlepage}
-\maketitle
-\end{titlepage}
-\textattachfile{attachments/lpic_2.lpi.pdf}{attached file}
-\section{biography}
-\subsection{basic}
-\begin{description}
-\item[name] elvin aslanov
-\item[location] \href{https://www.openstreetmap.org/relation/2415335}{baku, azerbaijan}
-\item[birtdate] june 9, 1992 (gemini)
-\end{description}
-\subsection{education}
-\begin{description}
-\item[formal education] bachelor's degree on computer engineering
-\item[certification] linux professional institution \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/bafrejwgeb}{lpic-2} (\textit{pdf attached})
-\item[language] english (fluent)
-\textit{generally being a self-taught and self-learner (ie. autodidactic) on life and work (thanks to open access web)}
-\end{description}
-\subsection{contacts}
-\begin{description}
-\item[email] \href{mailto:rwp@disroot.org}{rwp@disroot.org}
-\item[irc] \verb|_rwp| (\href{https://freenode.net/}{freenode})
-\item[xmpp]: \url{rwp@disroot.org}
-\end{description}
+  \begin{titlepage}
+    \maketitle
+  \end{titlepage}
+  \textattachfile{attachments/lpic_2.lpi.pdf}{attached file}
+  \textit{this being rather a creative resume}
+
+  \section{biography}
+    \subsection{basic}
+    \includegraphics{resume.png}
+      \begin{description}
+        \item[name] \href{https://en.wiktionary.org/wiki/Elvin#English}{elvin} \href{https://en.wiktionary.org/wiki/Aslan#Turkish}{aslan}ov
+        \item[location] \href{https://www.openstreetmap.org/relation/2415335}{baku, azerbaijan}
+        \item[birtdate] \href{https://www.timeanddate.com/date/durationresult.html?m1=06&d1=09&y1=1992}{june 9, 1992} (gemini)
+      \end{description}
+    \subsection{education}
+      \begin{description}
+        \item[formal education] bachelor's degree on computer engineering
+        \item[certification] \href{https://en.wikipedia.org/wiki/Linux_Professional_Institute}{linux professional institution} \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/bafrejwgeb}{lpic-2} (\textit{pdf attached})
+        \item[language] english (fluent)
+          \textit{generally being a self-taught and self-learner (ie. autodidactic) on life and work (thanks to open access web)}
+      \end{description}
+     \subsection{contacts}
+       \begin{description}
+         \item[email] \href{mailto:rwp.primary@gmail.com}{rwp.primary@gmail.com}, and \href{mailto:rwp@disroot.org}{rwp@disroot.org}
+         \item[phone]: \href{tel:+994702081512}{+994 70 208 15 12}
+         \item[irc] \verb|_rwp| (\href{https://freenode.net/}{freenode})
+         \item[xmpp]: \url{rwp@disroot.org}
+       \end{description}
+     \subsection{profiles}
+       \begin{description}
+         \item[github] code, discovery
+         \item[openstreetmap] mapping
+         \item[commons] photography, experiments
+         \item[stackoverflow] casual, q\&a
+       \end{description}
+
+  \section{employment}
+    \begin{tabular}{ c | c | c | c }
+      \hline			
+      company & years & function & software \\
+      \hline  
+      local & 2015 - 2016 & full stack web developer & \verb|html|, \verb|css|, \verb|javascript|, \verb|php|, \verb|mariadb| \\
+      local & 2016 - 2017 & unix system administrator & \verb|lamp| stack, \verb|unix| daemons \\
+      risk & 2017 - & bsd unix system administrator & \verb|openbsd|, \verb|perl|, \verb|postgresql| \\
+      \hline  
+    \end{tabular}
+
 \section{unix} % skills
-as an umbrella term covering the software below listed
+\textit{as an umbrella term covering the software below listed}
 \subsection{perl}
-\paragraph{perl programming and system administration using core and cpan distributions}
-\paragraph{heavy use and avid interest in perl programming language system}
+\subparagraph{perl programming and system administration using core and cpan distributions}
+\subparagraph{heavy use and avid interest in perl programming language system}
+\subparagraph{subscribed to \href{https://lists.perl.org/list/perl5-porters.html}{p5p} mailing list, watching commits at \href{https://github.com/Perl/perl5}{perl/perl5}, reading articles on \href{https://perl.com/}{perl.com}, and discovering libraries on \href{https://metacpan.org/}{metacpan.org}}
 % fraweworks (libraries): dbi, test-more, uri, datetime, \href{https://metacpan.org/release/Tk}{tk}, log4perl, template, curses-ui
 \subsection{openbsd}
-\paragraph{complete operating system from bsd family ready to be deployed}
-\paragraph{deployment and configuration of various base and ports unix daemons}
-% daemons (servers) httpd, relayd, pf, nsd, unbound, dhcpd; openssh, openntpd; apache, postfix, bind, isc-dhcp, openldap
-% tools (administration): tcsh, tmux
+\subparagraph{complete operating system from bsd family ready to be deployed}
+\subparagraph{deployment and configuration of various base and ports unix daemons}
+\subparagraph{subscribed to \href{https://www.openbsd.org/mail.html}{tech} mailing list, watching commits at \href{https://github.com/openbsd/src}{openbsd/src}, reading articles on \href{https://undeadly.org//}{undeadly.org}, and checking ports on \href{https://openports.se/}{openports.se}}
+\begin{verbatim}
+daemons (servers):
+httpd, relayd, pf, nsd, unbound, dhcpd
+openssh, openntpd; apache, postfix, bind
+isc-dhcp, openldap
+
+tools (administration):
+tcsh, tmux, git
+\end{verbatim}
 \subsection{postgresql}
-% database management system easily accessible by perl and deployed in openbsd
-% psql, pg_dump, pg_dumpall, pg_restore, pg_ctl
-% pg_config, pg_controldata, pg_isready, pg_upgrade
-% initdb, createdb (native cli tools) etc
+database management system easily accessible by perl and deployed in openbsd
+\begin{verbatim}
+psql, pg_dump, pg_dumpall, pg_restore, pg_ctl
+pg_config, pg_controldata, pg_isready, pg_upgrade
+initdb, createdb (native cli tools) etc
+\end{verbatim}
 \subsection{emacs}
 editor, and integrated development environment
-% modes: cperl, tramp, etags, flymake, gud
+\begin{verbatim}
+modes: cperl, tramp, etags, flymake, gud, magit
+dired, auctex
+\end{verbatim}
 \subsection{texlive}
 typesetting system
-\section{interests}
-interests i invest my time on
-\subsection{books}
-major books read(ing), and learned from
-\begin{enumerate}
-\item{learning perl\cite{learning_perl}}
-\item{intermediate perl\cite{intermediate_perl}}
-\item{mastering perl\cite{mastering_perl}}
-\item{programming perl\cite{programming_perl}}
-\item{perl cookbook\cite{perl_cookbook}}
-\item{mastering perl tk\cite{perl_tk}}
-\end{enumerate}
-\subsection{mailing lists}
-\begin{description}
-\item[\href{https://lists.perl.org/list/perl5-porters.html}{perl porters}]
-\item[openbsd tech]
-\item[emacs devel]
-\item[postgresql hackers]
-\end{description}
+
+  \section{interests}
+  \textit{interests i invest my time on}
+    \subsection{books}
+      \textit{major books read(ing), and learned from}
+      \begin{enumerate}
+        \item{learning perl\cite{learning_perl}}
+        \item{intermediate perl\cite{intermediate_perl}}
+        \item{mastering perl\cite{mastering_perl}}
+        \item{programming perl\cite{programming_perl}}
+        \item{perl cookbook\cite{perl_cookbook}} (reading)
+        \item{mastering perl tk\cite{perl_tk}} (reading)
+      \end{enumerate}
+    \subsection{mailing lists}
+      \textit{subscribed mailing lists reading daily}
+      \begin{description}
+        \item[\href{https://lists.perl.org/list/perl5-porters.html}{perl porters}]
+        \item[openbsd tech]
+        \item[\href{https://lists.gnu.org/mailman/listinfo/emacs-devel}{emacs devel}]
+        \item[\href{https://www.postgresql.org/list/pgsql-hackers/}{postgresql hackers}]
+      \end{description}
 \subsection{social}
 \href{https://en.wikipedia.org/wiki/User:Rwp0}{wikipedia}, openstreetmap, github\\
 i spend time reading wikipedia articles (and also wiktionary pages), explore openstreetmap objects, and watch github for commits  on projects i'm interested in
