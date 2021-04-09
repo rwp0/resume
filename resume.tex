@@ -1,6 +1,6 @@
 \documentclass{article}
-\title{resumé}
-\author{elvin aslanov (rwp) \thanks{\href{https://en.wikipedia.org/wiki/LaTeX}{\LaTeX} (\href{https://www.gnu.org/software/auctex/}{AUCTeX})}}
+\title{\href{https://github.com/rwp0/resume}{resumé}}
+\author{elvin aslanov (\href{https://rwp0.github.io/}{rwp}) \thanks{\href{https://en.wikipedia.org/wiki/LaTeX}{\LaTeX} (\href{https://www.gnu.org/software/auctex/}{AUCTeX})}}
 \date{\today}
 
 \usepackage[utf8]{inputenc}
@@ -12,37 +12,50 @@
   \begin{titlepage}
     \maketitle
   \end{titlepage}
-  \textattachfile{attachments/lpic_2.lpi.pdf}{attached file}
+  \textattachfile{attachments/lpic_2.lpi.pdf}{certification}
+  % \textattachfile{attachments/lpic_bsd.lpi.pdf}{certification}
+  \textattachfile{attachments/business_card.pdf}{business card}
   \textit{this being rather a creative resume}
 
   \section{biography}
     \subsection{basic}
     \includegraphics{resume.png}
       \begin{description}
-        \item[name] \href{https://en.wiktionary.org/wiki/Elvin#English}{elvin} \href{https://en.wiktionary.org/wiki/Aslan#Turkish}{aslan}ov
+      \item[name] \href{https://en.wiktionary.org/wiki/Elvin}{elvin} \href{https://en.wiktionary.org/wiki/Aslan}{aslan}ov
         \item[location] \href{https://www.openstreetmap.org/relation/2415335}{baku, azerbaijan}
         \item[birtdate] \href{https://www.timeanddate.com/date/durationresult.html?m1=06&d1=09&y1=1992}{june 9, 1992} (gemini)
       \end{description}
     \subsection{education}
       \begin{description}
         \item[formal education] bachelor's degree on computer engineering
-        \item[certification] \href{https://en.wikipedia.org/wiki/Linux_Professional_Institute}{linux professional institution} \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/bafrejwgeb}{lpic-2} (\textit{pdf attached})
         \item[language] english (fluent)
           \textit{generally being a self-taught and self-learner (ie. autodidactic) on life and work (thanks to open access web)}
       \end{description}
+        \subsubsection{certifications}
+        \centering
+        \textit{certificates are attached to the document in PDF file format} \\
+          \begin{tabular}{ c | c | c | c }
+            \hline			
+            certification & exams & validity & subject \\
+            \hline  
+            \href{https://en.wikipedia.org/wiki/Linux_Professional_Institute}{LPI} \href{https://www.lpi.org/our-certifications/lpic-2-overview}{LPIC-2} (\href{https://cs.lpi.org/caf/Xamman/candidate_area/certificate/LPIC-2/bafrejwgeb}{download}) & \href{https://www.lpi.org/our-certifications/exam-201-objectives}{201}, \href{https://www.lpi.org/our-certifications/exam-202-objectives}{202} & \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/bafrejwgeb}{2019-02-21 --- 2024-02-21} & linux distributions, unix daemons \\
+            \href{https://en.wikipedia.org/wiki/Linux_Professional_Institute}{LPI} \href{https://www.lpi.org/our-certifications/bsd-overview}{LPI BSD Specialist} (\href{https://cs.lpi.org/caf/Xamman/candidate_area/certificate/BSDS/mvuk2szhhw}{download}) & \href{https://www.lpi.org/our-certifications/exam-702-objectives}{702} & \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/mvuk2szhhw}{2021-04-08 --- 2026-04-08} & bsd (berkeley) unix administration \\
+            \hline  
+          \end{tabular}
      \subsection{contacts}
        \begin{description}
          \item[email] \href{mailto:rwp.primary@gmail.com}{rwp.primary@gmail.com}, and \href{mailto:rwp@disroot.org}{rwp@disroot.org}
          \item[phone]: \href{tel:+994702081512}{+994 70 208 15 12}
          \item[irc] \verb|_rwp| (\href{https://freenode.net/}{freenode})
          \item[xmpp]: \url{rwp@disroot.org}
+         \item[website] \href{https://rwp0.github.io/}{rwp0.github.io} (github pages)
        \end{description}
      \subsection{profiles}
        \begin{description}
-         \item[github] code, discovery
-         \item[openstreetmap] mapping
-         \item[commons] photography, experiments
-         \item[stackoverflow] casual, q\&a
+         \item[\href{https://github.com/rwp0}{github}] code, discovery
+         \item[\href{https://www.openstreetmap.org/user/rwp_}{openstreetmap}] mapping
+         \item[\href{https://commons.wikimedia.org/wiki/User:Rwp0}{commons}] photography, experiments
+         \item[\href{https://stackoverflow.com/users/13762488/rwp}{stackoverflow}] casual, q\&a
        \end{description}
 
   \section{employment}
@@ -56,41 +69,43 @@
       \hline  
     \end{tabular}
 
-\section{unix} % skills
-\textit{as an umbrella term covering the software below listed}
-\subsection{perl}
-\subparagraph{perl programming and system administration using core and cpan distributions}
-\subparagraph{heavy use and avid interest in perl programming language system}
-\subparagraph{subscribed to \href{https://lists.perl.org/list/perl5-porters.html}{p5p} mailing list, watching commits at \href{https://github.com/Perl/perl5}{perl/perl5}, reading articles on \href{https://perl.com/}{perl.com}, and discovering libraries on \href{https://metacpan.org/}{metacpan.org}}
-% fraweworks (libraries): dbi, test-more, uri, datetime, \href{https://metacpan.org/release/Tk}{tk}, log4perl, template, curses-ui
-\subsection{openbsd}
-\subparagraph{complete operating system from bsd family ready to be deployed}
-\subparagraph{deployment and configuration of various base and ports unix daemons}
-\subparagraph{subscribed to \href{https://www.openbsd.org/mail.html}{tech} mailing list, watching commits at \href{https://github.com/openbsd/src}{openbsd/src}, reading articles on \href{https://undeadly.org//}{undeadly.org}, and checking ports on \href{https://openports.se/}{openports.se}}
-\begin{verbatim}
+  \section{unix} % skills
+    \textit{as an umbrella term covering the software below listed}
+    \subsection{perl}
+      \subparagraph{perl programming and system administration using core and cpan distributions}
+      \subparagraph{heavy use and avid interest in perl programming language system}
+      \subparagraph{subscribed to \href{https://lists.perl.org/list/perl5-porters.html}{p5p} mailing list, watching commits at \href{https://github.com/Perl/perl5}{perl/perl5}, reading articles on \href{https://perl.com/}{perl.com}, and discovering libraries on \href{https://metacpan.org/}{metacpan.org}}
+      % fraweworks (libraries): dbi, test-more, uri, datetime, \href{https://metacpan.org/release/Tk}{tk}, log4perl, template, curses-ui
+    \subsection{openbsd}
+      \subparagraph{complete operating system from bsd family ready to be deployed}
+      \subparagraph{deployment and configuration of various base and ports unix daemons}
+      \subparagraph{subscribed to \href{https://www.openbsd.org/mail.html}{tech} mailing list, watching commits at \href{https://github.com/openbsd/src}{openbsd/src}, reading articles on \href{https://undeadly.org//}{undeadly.org}, and checking ports on \href{https://openports.se/}{openports.se}}
+      \begin{verbatim}
 daemons (servers):
-httpd, relayd, pf, nsd, unbound, dhcpd
-openssh, openntpd; apache, postfix, bind
-isc-dhcp, openldap
+httpd, relayd, pf, nsd, unbound, dhcpd, openssh, openntpd
+apache, postfix, bind, isc-dhcp, openldap
 
 tools (administration):
 tcsh, tmux, git
-\end{verbatim}
-\subsection{postgresql}
-database management system easily accessible by perl and deployed in openbsd
-\begin{verbatim}
-psql, pg_dump, pg_dumpall, pg_restore, pg_ctl
-pg_config, pg_controldata, pg_isready, pg_upgrade
-initdb, createdb (native cli tools) etc
-\end{verbatim}
-\subsection{emacs}
-editor, and integrated development environment
-\begin{verbatim}
+   \end{verbatim}
+    \subsection{postgresql}
+      database management system easily accessible by perl and deployed in openbsd
+      \begin{verbatim}
+psql, pg_dump, pg_dumpall, pg_restore, pg_ctl, pg_config
+pg_controldata, pg_isready, pg_upgrade, initdb
+createdb (native cli tools) etc
+  \end{verbatim}
+    \subsection{emacs}
+    editor, and integrated development environment
+      \begin{verbatim}
 modes: cperl, tramp, etags, flymake, gud, magit
 dired, auctex
-\end{verbatim}
-\subsection{texlive}
-typesetting system
+   \end{verbatim}
+    \subsection{texlive}
+    typesetting system
+      \begin{verbatim}
+pdflatex, auctex
+   \end{verbatim}
 
   \section{interests}
   \textit{interests i invest my time on}
@@ -108,18 +123,14 @@ typesetting system
       \textit{subscribed mailing lists reading daily}
       \begin{description}
         \item[\href{https://lists.perl.org/list/perl5-porters.html}{perl porters}]
-        \item[openbsd tech]
+        \item[\href{https://www.openbsd.org/mail.html}{openbsd tech}]
         \item[\href{https://lists.gnu.org/mailman/listinfo/emacs-devel}{emacs devel}]
         \item[\href{https://www.postgresql.org/list/pgsql-hackers/}{postgresql hackers}]
       \end{description}
-\subsection{social}
-\href{https://en.wikipedia.org/wiki/User:Rwp0}{wikipedia}, openstreetmap, github\\
-i spend time reading wikipedia articles (and also wiktionary pages), explore openstreetmap objects, and watch github for commits  on projects i'm interested in
-\bibliography{resume}{} % file: resume.bib (database)
-\bibliographystyle{plainurl} % file: plain.bst (style)
+    \subsection{social}
+    \href{https://en.wikipedia.org/wiki/User:Rwp0}{wikipedia}, openstreetmap, github\\
+    i spend time reading wikipedia articles (and also wiktionary pages), explore openstreetmap objects, and watch github for commits  on projects i'm interested in
+  \bibliography{resume}{} % file: resume.bib (database); nb. generates references section on document
+  \bibliographystyle{plainurl} % file: plain.bst (style)
 % \appendix
-% \includepdf[pages=-]{attachments/lpi2.lpi.pdf}
 \end{document}
-https://addons.mozilla.org/en-US/firefox/user/16430899/
-https://commons.wikimedia.org/wiki/User:Rwp0
-perler, mapper, wikipedian, mozillian
