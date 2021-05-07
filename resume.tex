@@ -1,56 +1,67 @@
-\documentclass{article}
-\title{\href{https://github.com/rwp0/resume}{resumé}}
-\author{elvin aslanov (\href{https://rwp0.github.io/}{rwp}) \thanks{\href{https://en.wikipedia.org/wiki/LaTeX}{\LaTeX} (\href{https://www.gnu.org/software/auctex/}{AUCTeX})}}
-\date{\today}
+\documentclass {article}
+\title {\href{https://github.com/rwp0/resume}{Resumé}}
+\author {Elvin Aslanov (\href{https://rwp0.github.io/}{rwp}) \thanks{\href{https://en.wikipedia.org/wiki/LaTeX}{\LaTeX} (\href{https://www.gnu.org/software/auctex/}{AUCTeX})}}
+\date {\today}
 
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\usepackage{attachfile2} % macros: textattachfile
-\usepackage{graphicx}
+\usepackage [utf8] {inputenc}
+\usepackage {hyperref}
+\usepackage {attachfile2} % macros: textattachfile
+\usepackage {graphicx}
 
-\begin{document}
-  \begin{titlepage}
+\begin {document}
+  \begin {titlepage}
     \maketitle
-  \end{titlepage}
-  \textattachfile{attachments/lpic_2.lpi.pdf}{certification}
+  \end {titlepage}
+  \textattachfile {attachments/lpic_2.lpi.pdf} {certification}
   % \textattachfile{attachments/lpic_bsd.lpi.pdf}{certification}
-  \textattachfile{attachments/business_card.pdf}{business card}
-  \textit{this being rather a creative resume}
+  \textattachfile {attachments/business_card.pdf} {business card}
+  \textit {this being rather a creative resume}
 
-  \section{biography}
-    \subsection{basic}
-    \includegraphics{resume.png}
-      \begin{description}
-      \item[name] \href{https://en.wiktionary.org/wiki/Elvin}{elvin} \href{https://en.wiktionary.org/wiki/Aslan}{aslan}ov
-        \item[location] \href{https://www.openstreetmap.org/relation/2415335}{baku, azerbaijan}
-        \item[birtdate] \href{https://www.timeanddate.com/date/durationresult.html?m1=06&d1=09&y1=1992}{june 9, 1992} (gemini)
-      \end{description}
-    \subsection{education}
-      \begin{description}
-        \item[formal education] bachelor's degree on computer engineering
-        \item[language] english (fluent)
-          \textit{generally being a self-taught and self-learner (ie. autodidactic) on life and work (thanks to open access web)}
-      \end{description}
-        \subsubsection{certifications}
+  \section {Biography}
+
+    \subsection {Basic}
+    \includegraphics [scale = 0.5] {resume.jpg}
+      \begin {description}
+      \item [Name] \href{https://en.wiktionary.org/wiki/Elvin}{Elvin} \href{https://en.wiktionary.org/wiki/Aslan}{Aslan}ov
+        \item [Location] \href{https://www.openstreetmap.org/relation/2415335}{baku, azerbaijan}
+        \item [Birtdate] \href{https://www.timeanddate.com/date/durationresult.html?m1=06&d1=09&y1=1992}{june 9, 1992} (gemini)
+      \end {description}
+
+    \subsection {Education}
+      \textit {Generally being a self-taught and self-learner (ie. autodidactic) on life and work (thanks to \href{https://en.wikipedia.org/wiki/Open_access}{open access} web).}
+
+      \subsubsection {University}
+        \begin {description}
+          \item [University] Qafqaz University
+          \item [Years] 2009 --- 2013
+          \item [Degree] Bachelor's degree on Computer Engineering
+          \item [Class] English
+        \end {description}
+
+        \subsubsection {Certifications}
         \centering
-        \textit{certificates are attached to the document in PDF file format} \\
-          \begin{tabular}{ c | c | c | c }
+        \textit {certificates are attached to the document in PDF file format} \\
+          \begin {tabular} { c | c | c }
             \hline			
-            certification & exams & validity & subject \\
+            \textbf {Certification} & \textbf {Exam} & \textbf {Validity} \\
             \hline  
-            \href{https://en.wikipedia.org/wiki/Linux_Professional_Institute}{LPI} \href{https://www.lpi.org/our-certifications/lpic-2-overview}{LPIC-2} (\href{https://cs.lpi.org/caf/Xamman/candidate_area/certificate/LPIC-2/bafrejwgeb}{download}) & \href{https://www.lpi.org/our-certifications/exam-201-objectives}{201}, \href{https://www.lpi.org/our-certifications/exam-202-objectives}{202} & \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/bafrejwgeb}{2019-02-21 --- 2024-02-21} & linux distributions, unix daemons \\
-            \href{https://en.wikipedia.org/wiki/Linux_Professional_Institute}{LPI} \href{https://www.lpi.org/our-certifications/bsd-overview}{LPI BSD Specialist} (\href{https://cs.lpi.org/caf/Xamman/candidate_area/certificate/BSDS/mvuk2szhhw}{download}) & \href{https://www.lpi.org/our-certifications/exam-702-objectives}{702} & \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/mvuk2szhhw}{2021-04-08 --- 2026-04-08} & bsd (berkeley) unix administration \\
+
+            \href{https://en.wikipedia.org/wiki/Linux_Professional_Institute}{LPI} \href{https://www.lpi.org/our-certifications/lpic-2-overview}{LPIC-2} (\href{https://cs.lpi.org/caf/Xamman/candidate_area/certificate/LPIC-2/bafrejwgeb}{download}) & \href{https://www.lpi.org/our-certifications/exam-201-objectives}{201}, \href{https://www.lpi.org/our-certifications/exam-202-objectives}{202} & \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/bafrejwgeb}{2019-02-21 --- 2024-02-21} \\
+            \href{https://en.wikipedia.org/wiki/Linux_Professional_Institute}{LPI} \href{https://www.lpi.org/our-certifications/bsd-overview}{LPI BSD Specialist} (\href{https://cs.lpi.org/caf/Xamman/candidate_area/certificate/BSDS/mvuk2szhhw}{download}) & \href{https://www.lpi.org/our-certifications/exam-702-objectives}{702} & \href{https://cs.lpi.org/caf/Xamman/certification/verify/LPI000307519/mvuk2szhhw}{2021-04-08 --- 2026-04-08} \\
+
             \hline  
           \end{tabular}
-     \subsection{contacts}
+
+     \subsection{Contacts}
        \begin{description}
-         \item[email] \href{mailto:rwp.primary@gmail.com}{rwp.primary@gmail.com}, and \href{mailto:rwp@disroot.org}{rwp@disroot.org}
-         \item[phone]: \href{tel:+994702081512}{+994 70 208 15 12}
-         \item[irc] \verb|_rwp| (\href{https://freenode.net/}{freenode})
-         \item[xmpp]: \url{rwp@disroot.org}
-         \item[website] \href{https://rwp0.github.io/}{rwp0.github.io} (github pages)
+         \item[Email] \href{mailto:rwp.primary@gmail.com}{rwp.primary@gmail.com}, and \href{mailto:rwp@disroot.org}{rwp@disroot.org}
+         \item[Phone]: \href{tel:+994702081512}{+994 70 208 15 12}
+         \item[IRC] \verb|_rwp| (\href{https://freenode.net/}{freenode})
+         \item[XMPP]: \url{rwp@disroot.org}
+         \item[Website] \href{https://rwp0.github.io/}{rwp0.github.io} (github pages)
        \end{description}
-     \subsection{profiles}
+
+     \subsection{Profiles}
        \begin{description}
          \item[\href{https://github.com/rwp0}{github}] code, discovery
          \item[\href{https://www.openstreetmap.org/user/rwp_}{openstreetmap}] mapping
@@ -58,25 +69,25 @@
          \item[\href{https://stackoverflow.com/users/13762488/rwp}{stackoverflow}] casual, q\&a
        \end{description}
 
-  \section{employment}
+  \section{Employment}
     \begin{tabular}{ c | c | c | c }
       \hline			
-      company & years & function & software \\
+      Company & Years & Function & Software \\
       \hline  
-      local & 2015 - 2016 & full stack web developer & \verb|html|, \verb|css|, \verb|javascript|, \verb|php|, \verb|mariadb| \\
-      local & 2016 - 2017 & unix system administrator & \verb|lamp| stack, \verb|unix| daemons \\
-      risk & 2017 - & bsd unix system administrator & \verb|openbsd|, \verb|perl|, \verb|postgresql| \\
+      Local & 2015 - 2016 & Full Stack Web Developer & \verb|html|, \verb|css|, \verb|javascript|, \verb|php|, \verb|mariadb| \\
+      Local & 2016 - 2017 & Unix System Administrator & \verb|lamp| stack, \verb|unix| daemons \\
+      R.I.S.K Company & 2017 - & BSD Unix System Administrator & \verb|openbsd|, \verb|perl|, \verb|postgresql| \\
       \hline  
     \end{tabular}
 
-  \section{unix} % skills
+  \section{Unix} % skills
     \textit{as an umbrella term covering the software below listed}
-    \subsection{perl}
+    \subsection{Perl}
       \subparagraph{perl programming and system administration using core and cpan distributions}
       \subparagraph{heavy use and avid interest in perl programming language system}
       \subparagraph{subscribed to \href{https://lists.perl.org/list/perl5-porters.html}{p5p} mailing list, watching commits at \href{https://github.com/Perl/perl5}{perl/perl5}, reading articles on \href{https://perl.com/}{perl.com}, and discovering libraries on \href{https://metacpan.org/}{metacpan.org}}
       % fraweworks (libraries): dbi, test-more, uri, datetime, \href{https://metacpan.org/release/Tk}{tk}, log4perl, template, curses-ui
-    \subsection{openbsd}
+    \subsection{OpenBSD}
       \subparagraph{complete operating system from bsd family ready to be deployed}
       \subparagraph{deployment and configuration of various base and ports unix daemons}
       \subparagraph{subscribed to \href{https://www.openbsd.org/mail.html}{tech} mailing list, watching commits at \href{https://github.com/openbsd/src}{openbsd/src}, reading articles on \href{https://undeadly.org//}{undeadly.org}, and checking ports on \href{https://openports.se/}{openports.se}}
@@ -88,38 +99,43 @@ apache, postfix, bind, isc-dhcp, openldap
 tools (administration):
 tcsh, tmux, git
    \end{verbatim}
-    \subsection{postgresql}
+
+    \subsection{PostgreSQL}
       database management system easily accessible by perl and deployed in openbsd
       \begin{verbatim}
 psql, pg_dump, pg_dumpall, pg_restore, pg_ctl, pg_config
 pg_controldata, pg_isready, pg_upgrade, initdb
 createdb (native cli tools) etc
   \end{verbatim}
-    \subsection{emacs}
+
+    \subsection{Emacs}
     editor, and integrated development environment
       \begin{verbatim}
 modes: cperl, tramp, etags, flymake, gud, magit
 dired, auctex
    \end{verbatim}
-    \subsection{texlive}
+
+    \subsection{TeX Live}
     typesetting system
       \begin{verbatim}
 pdflatex, auctex
    \end{verbatim}
 
-  \section{interests}
+  \section{Interests}
   \textit{interests i invest my time on}
-    \subsection{books}
+
+    \subsection{Books}
       \textit{major books read(ing), and learned from}
       \begin{enumerate}
-        \item{learning perl\cite{learning_perl}}
-        \item{intermediate perl\cite{intermediate_perl}}
-        \item{mastering perl\cite{mastering_perl}}
-        \item{programming perl\cite{programming_perl}}
-        \item{perl cookbook\cite{perl_cookbook}} (reading)
-        \item{mastering perl tk\cite{perl_tk}} (reading)
+        \item{Learning Perl\cite{learning_perl}}
+        \item{Intermediate Perl\cite{intermediate_perl}}
+        \item{Mastering Perl\cite{mastering_perl}}
+        \item{Programming Perl\cite{programming_perl}}
+        \item{Perl Cookbook\cite{perl_cookbook}} (reading)
+        \item{Mastering Perl Tk\cite{perl_tk}} (reading)
       \end{enumerate}
-    \subsection{mailing lists}
+
+    \subsection{Mailing lists}
       \textit{subscribed mailing lists reading daily}
       \begin{description}
         \item[\href{https://lists.perl.org/list/perl5-porters.html}{perl porters}]
@@ -127,9 +143,10 @@ pdflatex, auctex
         \item[\href{https://lists.gnu.org/mailman/listinfo/emacs-devel}{emacs devel}]
         \item[\href{https://www.postgresql.org/list/pgsql-hackers/}{postgresql hackers}]
       \end{description}
-    \subsection{social}
+
+    \subsection{Social}
     \href{https://en.wikipedia.org/wiki/User:Rwp0}{wikipedia}, openstreetmap, github\\
-    i spend time reading wikipedia articles (and also wiktionary pages), explore openstreetmap objects, and watch github for commits  on projects i'm interested in
+    I spend time reading wikipedia articles (and also Wiktionary pages), explore OpenStreetMap objects, and watch GitHub for commits on projects I'm interested in.
   \bibliography{resume}{} % file: resume.bib (database); nb. generates references section on document
   \bibliographystyle{plainurl} % file: plain.bst (style)
 % \appendix
