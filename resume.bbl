@@ -1,45 +1,45 @@
 \begin{thebibliography}{1}
 
-\bibitem{intermediate_perl}
-randal schwartz.
-\newblock {\em intermediate}.
-\newblock oreilly, 2 edition, october 2016.
-\newblock URL:
-  \url{https://www.oreilly.com/library/view/intermediate-perl-2nd/9781449343781/}.
-
-\bibitem{mastering_perl}
-randal schwartz.
-\newblock {\em intermediate}.
-\newblock oreilly, 2 edition, october 2016.
-\newblock URL:
-  \url{https://www.oreilly.com/library/view/mastering-perl-2nd/9781449364946/}.
-
-\bibitem{learning_perl}
-randal schwartz.
-\newblock {\em learning perl}.
-\newblock oreilly, 7 edition, october 2016.
-\newblock URL:
-  \url{https://www.oreilly.com/library/view/learning-perl-7th/9781491954317/}.
-
-\bibitem{perl_tk}
-stephen lidie.
-\newblock {\em mastering perl/tk}.
-\newblock oreilly, 2 edition, january 2002.
-\newblock URL:
-  \url{https://www.oreilly.com/library/view/mastering-perltk/1565927168/}.
-
 \bibitem{perl_cookbook}
-tom christiansen.
-\newblock {\em perl cookbook}.
-\newblock oreilly, 2 edition, august 2003.
+Tom Christiansen.
+\newblock {\em Perl Cookbook}.
+\newblock Oreilly, 2 edition, August 2003.
 \newblock URL:
   \url{https://www.oreilly.com/library/view/perl-cookbook-2nd/0596003137/}.
 
 \bibitem{programming_perl}
-tom christiansen.
-\newblock {\em programming perl}.
-\newblock oreilly, 4 edition, 2014.
+Tom Christiansen.
+\newblock {\em Programming Perl}.
+\newblock Oreilly, 4 edition, 2014.
 \newblock URL:
   \url{https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/}.
+
+\bibitem{perl_tk}
+Stephen Lidie.
+\newblock {\em Mastering Perl/Tk}.
+\newblock Oreilly, 2 edition, January 2002.
+\newblock URL:
+  \url{https://www.oreilly.com/library/view/mastering-perltk/1565927168/}.
+
+\bibitem{intermediate_perl}
+Randal Schwartz.
+\newblock {\em Intermediate Perl}.
+\newblock Oreilly, 2 edition, October 2016.
+\newblock URL:
+  \url{https://www.oreilly.com/library/view/intermediate-perl-2nd/9781449343781/}.
+
+\bibitem{learning_perl}
+Randal Schwartz.
+\newblock {\em Learning Perl}.
+\newblock Oreilly, 7 edition, October 2016.
+\newblock URL:
+  \url{https://www.oreilly.com/library/view/learning-perl-7th/9781491954317/}.
+
+\bibitem{mastering_perl}
+Randal Schwartz.
+\newblock {\em Mastering Perl}.
+\newblock Oreilly, 2 edition, October 2016.
+\newblock URL:
+  \url{https://www.oreilly.com/library/view/mastering-perl-2nd/9781449364946/}.
 
 \end{thebibliography}
