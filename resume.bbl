@@ -21,6 +21,18 @@ Stephen Lidie.
 \newblock URL:
   \url{https://www.oreilly.com/library/view/mastering-perltk/1565927168/}.
 
+\bibitem{absolute_openbsd}
+Michael Lucas.
+\newblock {\em Absolute OpenBSD}.
+\newblock No Starch, 2 edition, April 2013.
+\newblock URL: \url{https://nostarch.com/obenbsd2e}.
+
+\bibitem{absolute_freebsd}
+Michael Lucas.
+\newblock {\em Absolute FreeBSD}.
+\newblock No Starch, 3 edition, October 2018.
+\newblock URL: \url{https://nostarch.com/absfreebsd3}.
+
 \bibitem{intermediate_perl}
 Randal Schwartz.
 \newblock {\em Intermediate Perl}.
