@@ -33,6 +33,13 @@ Michael Lucas.
 \newblock No Starch, 3 edition, October 2018.
 \newblock URL: \url{https://nostarch.com/absfreebsd3}.
 
+\bibitem{postgresql}
+Regina Obe.
+\newblock {\em PostgreSQL: Up and Running, 3rd Edition}.
+\newblock Oreilly, 3 edition, November 2017.
+\newblock URL:
+  \url{https://www.oreilly.com/library/view/postgresql-up-and/9781491963401/}.
+
 \bibitem{intermediate_perl}
 Randal Schwartz.
 \newblock {\em Intermediate Perl}.
