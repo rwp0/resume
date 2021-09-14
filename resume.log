@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020-OpenBSD_Ports) (preloaded format=xelatex 2020.5.30)  30 JUL 2021 13:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020-OpenBSD_Ports) (preloaded format=xelatex 2020.5.30)  14 SEP 2021 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -288,25 +288,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 38.
 
 [1]
-Overfull \hbox (6.52676pt too wide) in paragraph at lines 116--116
+Overfull \hbox (6.52676pt too wide) in paragraph at lines 117--117
  []\TU/lmr/bx/n/10 Perl programming and system administration using Core and CP
 AN
  []
 
 
-Overfull \hbox (2.89212pt too wide) in paragraph at lines 120--120
+Overfull \hbox (2.89212pt too wide) in paragraph at lines 121--121
 \TU/lmr/bx/n/10 reading articles on []perl.com[], and discovering libraries on 
 []metacpan.org[][] 
  []
 
 [2]
-Overfull \hbox (27.75pt too wide) in paragraph at lines 130--130
+Overfull \hbox (27.75pt too wide) in paragraph at lines 131--131
 []\TU/lmtt/m/n/10 httpd, relayd, pf, nsd, unbound, dhcpd, openssh, openntpd, sm
 tpd, snmpd[] 
  []
 
 
-Overfull \hbox (48.75pt too wide) in paragraph at lines 130--130
+Overfull \hbox (48.75pt too wide) in paragraph at lines 131--131
 []\TU/lmtt/m/n/10 apache, postfix, bind, isc-dhcp, openldap, freeradius, squid,
  ntpd, dnsmasq[] 
  []
@@ -317,13 +317,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
 ] [][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][] []
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 11--16
 []$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][][][] [] 
 [][][][] [] [][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--23
 \TU/lmr/m/n/10 URL: []$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [
 ] [][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][] []
@@ -348,23 +348,23 @@ Underfull \hbox (badness 8132) in paragraph at lines 58--63
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 9D6FA4105EBD35DBBA20E770284E88F6;1074.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+(rerunfilecheck)             Checksum: 868B6834EBBD223EE85A25967DC75F31;1128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
  8606 strings out of 479418
  125972 string characters out of 5887664
- 384359 words of memory out of 5000000
+ 385424 words of memory out of 5000000
  26018 multiletter control sequences out of 15000+600000
  535522 words of font info for 45 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 36i,11n,47p,572b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,47p,572b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (6 pages).
